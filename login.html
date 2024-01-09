@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <!-- Import Poppins font from Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="form-group email">
+                    <label for="email"></label>
+                    <input placeholder="Email" type="email"  name="email" id="email">
+                </div>
+
+                <div class="form-group password">
+                    <label for="password"></label>&nbsp;
+                    <input placeholder="Password" type="password"  name="password" id="password">
+                </div>
+                <button class="btn btn-primary login" id="login" type="button" onclick="loginUser()">Submit</button>
+                
+                <p><a href="./register.html">Don't have an account?</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="./sandbox.js"></script>
+</body>
+</html>

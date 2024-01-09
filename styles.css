@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #D0D0D0;
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-top: 10px;
+}
+button{
+    margin: 10px;
+}
+
+.register-card{
+    background-color: white;
+    width: 30%;
+    height: 45%;
+}
+
+.card{
+    background-color: white;
+    width: 30%;
+    height: 42%;
+}
+.email, .password{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin: 8px;
+}

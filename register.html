@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+      <!-- Import Poppins font from Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+      <link rel="stylesheet" href="styles.css">
+
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register-card">
+            <h2>Register</h2>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Enter Name" name="name"   id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Enter Email" name="email"   id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password"></label>
+                    <input type="password" placeholder="Enter Password" name="password"   id="password">
+                </div>
+                <p><a href="./login.html">Already a user? </a></p>
+                 
+                <button class="btn btn-primary" id="save_btn" type="button" onclick="saveInfo()">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./sandbox.js"></script>
+</body>
+</html>
